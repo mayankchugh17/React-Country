@@ -21,6 +21,9 @@ const Navbar = () => {
                     <li className="navbar-item">
                         <NavLink to="/country" className="navbar-link">Country</NavLink>
                     </li>
+                    <li>
+                        <NavLink to="/favorites" className="navbar-link">Favorites</NavLink>
+                    </li>
                 </ul>
             </div>
         </nav>
